@@ -1,0 +1,20 @@
+{
+  "name": "under-construction",
+  "version": "1.0.0",
+  "description": "A modern Web 3.0 under construction page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --watch",
+    "build": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --minify"
+  },
+  "author": "Muhammad Kalim <mohammadkalim@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^4.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21"
+  }
+}
